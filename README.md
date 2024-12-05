@@ -2,6 +2,7 @@ Rick and Morty Character Browser 
 This iOS application showcases a paginated list of characters from the Rick and Morty API, with filtering options and a detailed view for each character. The project demonstrates a mix of UIKit and SwiftUI, adhering to clean architecture principles with the use of MVVM, Combine, and the Coordinator pattern.
 
 ———————————————————————————————————————————————————————————————————————— 
+
  Features 
 Screen 1: Character List
 * Displays a list of Rick and Morty characters, paginated to load 20 characters at a time.
@@ -22,6 +23,7 @@ Screen 2: Character Details
 * Built entirely with SwiftUI for a clean and modern UI.
 
 ———————————————————————————————————————————————————————————————————————— 
+
 Architecture 
 Patterns
 * MVVM:
@@ -39,6 +41,7 @@ Technology Stack
     * Provides a reactive data-binding mechanism between the ViewModel and Views.
 
 ———————————————————————————————————————————————————————————————————————— 
+
 Project Highlights 
 1. Dynamic Filtering:
     * A horizontal UICollectionView allows users to select a filter.
@@ -51,7 +54,8 @@ Project Highlights 
     * SwiftUI for table view cells and the detailed character view, demonstrating interoperability.
 4. Code-Only UI:
     * All UI components are built programmatically for flexibility and maintainability.  
-———————————————————————————————————————————————————————————————————————— 
+
+————————————————————————————————————————————————————————————————————————
 
 Setup and Installation 
 Prerequisites
@@ -60,6 +64,7 @@ Prerequisites
 * Swift 5.6 or later
 
 —————————————————————————————————————————————————————————————— 
+
  Assumptions and Decisions 
 1. Mix of UIKit and SwiftUI:
     * UIKit was chosen for the main list and filter for its superior handling of large data sets and better scrolling performance.
@@ -68,7 +73,8 @@ Prerequisites
     * Errors during API calls are logged to the console. A future enhancement would involve showing a user-friendly error message.
 3. No External Dependencies:
     * The app uses only native Swift and iOS frameworks to meet the test requirements.
-——————————————————————————————————————————————————————————————--------------------------------- 
+
+——————————————————————————————————————————————————————————————
 
 Challenges and Solutions
 1. Interoperability Between UIKit and SwiftUI:
@@ -77,6 +83,7 @@ Challenges and Solutions
     * Ensured smooth pagination by keeping track of the current page and checking when the user scrolls to the bottom of the list.
 3. State Management:
     * Managed state and updates with Combine to keep views responsive and consistent.
+
 ——————————————————————————————————————————————————————————————
 
 Testing 
@@ -88,6 +95,7 @@ Future Improvements
 * Add integration tests for UI interactions using XCTest.
 
 —————————————————————————————————————————————————————————————— 
+
 Acknowledgments 
 * Rick and Morty API:
     * API Documentation
