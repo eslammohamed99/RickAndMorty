@@ -1,7 +1,8 @@
 Rick and Morty Character Browser 
 This iOS application showcases a paginated list of characters from the Rick and Morty API, with filtering options and a detailed view for each character. The project demonstrates a mix of UIKit and SwiftUI, adhering to clean architecture principles with the use of MVVM, Combine, and the Coordinator pattern.
 
-————————————————————————————————————————————————————————————————————————  Features 
+———————————————————————————————————————————————————————————————————————— 
+ Features 
 Screen 1: Character List
 * Displays a list of Rick and Morty characters, paginated to load 20 characters at a time.
 * Each character is presented with the following:
@@ -51,6 +52,7 @@ Project Highlights 
 4. Code-Only UI:
     * All UI components are built programmatically for flexibility and maintainability.  
 ———————————————————————————————————————————————————————————————————————— 
+
 Setup and Installation 
 Prerequisites
 * macOS 12.0 or later
