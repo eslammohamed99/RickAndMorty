@@ -1,7 +1,7 @@
 Rick and Morty Character Browser 
 This iOS application showcases a paginated list of characters from the Rick and Morty API, with filtering options and a detailed view for each character. The project demonstrates a mix of UIKit and SwiftUI, adhering to clean architecture principles with the use of MVVM, Combine, and the Coordinator pattern.
 
-———————————————————————————————————————————————————————————————————————— 
+—————————————————————————————————————————————————————————————
 
  Features 
 Screen 1: Character List
@@ -22,7 +22,7 @@ Screen 2: Character Details
     * Gender
 * Built entirely with SwiftUI for a clean and modern UI.
 
-———————————————————————————————————————————————————————————————————————— 
+————————————————————————————————————————————————————————
 
 Architecture 
 Patterns
@@ -40,7 +40,7 @@ Technology Stack
 * Combine:
     * Provides a reactive data-binding mechanism between the ViewModel and Views.
 
-———————————————————————————————————————————————————————————————————————— 
+—————————————————————————————————————————————————————————
 
 Project Highlights 
 1. Dynamic Filtering:
@@ -55,7 +55,7 @@ Project Highlights 
 4. Code-Only UI:
     * All UI components are built programmatically for flexibility and maintainability.  
 
-————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————————
 
 Setup and Installation 
 Prerequisites
@@ -63,7 +63,19 @@ Prerequisites
 * Xcode 14.0 or later
 * Swift 5.6 or later
 
-—————————————————————————————————————————————————————————————— 
+Steps to Run the Application
+
+Clone the repository:
+git clone https://github.com/your-username/rick-and-morty-browser.git
+Open the project in Xcode:
+cd rick-and-morty-browser
+
+open RickAndMortyTask.xcodeproj
+Build and run the project:
+Select a simulator or connected device.
+Press Cmd + R or click the "Run" button in Xcode.
+
+—————————————————————————————————————————————————————
 
  Assumptions and Decisions 
 1. Mix of UIKit and SwiftUI:
@@ -74,7 +86,7 @@ Prerequisites
 3. No External Dependencies:
     * The app uses only native Swift and iOS frameworks to meet the test requirements.
 
-——————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————
 
 Challenges and Solutions
 1. Interoperability Between UIKit and SwiftUI:
@@ -84,7 +96,7 @@ Challenges and Solutions
 3. State Management:
     * Managed state and updates with Combine to keep views responsive and consistent.
 
-——————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————
 
 Testing 
 Unit Tests
@@ -94,7 +106,7 @@ Unit Tests
 Future Improvements
 * Add integration tests for UI interactions using XCTest.
 
-—————————————————————————————————————————————————————————————— 
+————————————————————————————————————————————————
 
 Acknowledgments 
 * Rick and Morty API:
